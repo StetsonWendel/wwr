@@ -1,3 +1,6 @@
+
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,14 +8,22 @@
 
 body{
     background-color: #F5E3E0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
 
 header{
     background-color:#81B29A;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
-.logo{
+#logo{
     width: 80px;
+    padding-top: 5px;
 }
 
 
@@ -20,6 +31,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     color: black;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -37,7 +49,10 @@ nav a:hover{
 }
 
 .home-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 
@@ -58,6 +73,10 @@ h4{
     background-color:#A1674A;
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -67,10 +86,15 @@ h4{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 main section{
     text-align: center;
+
+}
+main section img {
+    box-sizing: border-box;
 }
 
 #background{
@@ -80,6 +104,8 @@ main section{
 
 .msg{
     background-color: #81B29A;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -87,13 +113,19 @@ main section{
 }
 
 .msg p{
-    color: black
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .join{
     background-color: #A1674A;
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
@@ -103,11 +135,17 @@ main section{
 
 footer{
     background-color: #2D3142;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3{
     color: white;
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer a{
@@ -117,4 +155,22 @@ footer a{
 
 footer a:hover{
     color: #A1674A
+}
+
+h2{
+    margin: 0;
+}
+
+.rivers-card{
+      margin: 200px 0;
+}
+ .camping-card{
+       margin: 200px 0;
+ }
+.rapids-card{
+        margin: 200px 0;
+} 
+
+.card-img{
+    border: 10px #000;
 }
